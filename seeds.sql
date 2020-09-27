@@ -1,7 +1,7 @@
-USE employee_db;
+USE employee_DB;
 
 INSERT INTO department
-    (id, eName)
+    (id, Ename)
 VALUES
     (1, "Community Relations"),
     (2, "Management"),
@@ -18,10 +18,10 @@ VALUES
     (5, "Sales Lead", 70000, 3),
     (6, "Creative Director", 82000, 4),
     (7, "Social Media Manager", 60000, 4),
-    (8, "Chief Quality Officer", 90000, 1);
+    (8, "IT Manager", 90000, 1);
 
 INSERT INTO employee
-    ( id, first_name, last_name, role_id)
+    (id, first_name, last_name, role_id)
 VALUES
     (1, "Natalie", "Ramsey", 1),
     (2, "John", "Wick", 2),
