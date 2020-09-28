@@ -1,1 +1,2 @@
 # employeeTracker
+![](employeetracker.gif)
