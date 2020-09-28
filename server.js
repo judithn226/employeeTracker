@@ -70,9 +70,7 @@ function menuPrompt() {
     });
 }
 function EmployeeList() {
-  var sqlStart = "SELECT first_name, last_name, role_id FROM employee";
-  sqlStart += "LEFT JOIN role";
-  sqlStart += "ON employee.role_id = role.id";
+  var sqlStart = "SELECT * FROM employee";
   connection.query(sqlStart, function (err, result) {
     if (err) throw err;
 
