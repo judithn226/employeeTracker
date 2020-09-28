@@ -1,2 +1,5 @@
 # employeeTracker
-![](employeetracker.gif)
+
+
+![Alt Text](employeetracker.gif)
+
